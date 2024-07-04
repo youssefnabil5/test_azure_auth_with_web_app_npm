@@ -23,6 +23,7 @@
     "@azure/identity": "^4.3.0",
     "@azure/keyvault-secrets": "^4.8.0",
     "@nestjs/common": "^10.0.0",
+    "@nestjs/config": "^3.2.3",
     "@nestjs/core": "^10.0.0",
     "@nestjs/platform-express": "^10.0.0",
     "reflect-metadata": "^0.1.13",

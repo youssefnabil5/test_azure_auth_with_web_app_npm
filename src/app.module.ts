@@ -2,9 +2,10 @@ import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { KeyValutpModule } from './keyvalutsecret/keyvalut.module';
+import { ConfigModule } from '@nestjs/config';
 
 @Module({
-  imports: [KeyValutpModule],
+  imports: [ConfigModule.forRoot(),KeyValutpModule],
   controllers: [AppController],
   providers: [AppService],
 })
